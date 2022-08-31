@@ -332,7 +332,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="ux_GjhKosoBnVBOw03yN" name="Routes">
-        <mxGraphModel dx="1165" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="792" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="CBwO-R-Ii1OIMNnKbIEP-0"/>
                 <mxCell id="CBwO-R-Ii1OIMNnKbIEP-1" parent="CBwO-R-Ii1OIMNnKbIEP-0"/>
@@ -962,7 +962,7 @@
                 <mxCell id="h3U-ndq0wjFjbMxy49mH-20" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;strokeWidth=1;" edge="1" parent="CBwO-R-Ii1OIMNnKbIEP-1" source="h3U-ndq0wjFjbMxy49mH-15" target="h3U-ndq0wjFjbMxy49mH-18">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="h3U-ndq0wjFjbMxy49mH-45" value="/channels/articles" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="h3U-ndq0wjFjbMxy49mH-20">
+                <mxCell id="h3U-ndq0wjFjbMxy49mH-45" value="/channels/:id/articles" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="h3U-ndq0wjFjbMxy49mH-20">
                     <mxGeometry x="-0.29" relative="1" as="geometry">
                         <mxPoint y="2" as="offset"/>
                     </mxGeometry>
@@ -1005,7 +1005,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="h3U-ndq0wjFjbMxy49mH-24" value="(top) users view list" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="CBwO-R-Ii1OIMNnKbIEP-1">
-                    <mxGeometry x="362.5" y="1009.2800000000001" width="170" height="30" as="geometry"/>
+                    <mxGeometry x="362.5" y="985.0000000000001" width="170" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="h3U-ndq0wjFjbMxy49mH-38" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;strokeColor=#FFFFFF;strokeWidth=1;" edge="1" parent="CBwO-R-Ii1OIMNnKbIEP-1" source="h3U-ndq0wjFjbMxy49mH-29" target="h3U-ndq0wjFjbMxy49mH-37">
                     <mxGeometry relative="1" as="geometry"/>
@@ -1041,7 +1041,12 @@
                 </mxCell>
                 <mxCell id="h3U-ndq0wjFjbMxy49mH-52" value="[USER GUARD] =&amp;gt;&amp;nbsp;&lt;br&gt;{IsOwner}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="h3U-ndq0wjFjbMxy49mH-50">
                     <mxGeometry x="0.5484" y="-1" relative="1" as="geometry">
-                        <mxPoint y="5" as="offset"/>
+                        <mxPoint y="-12" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="h3U-ndq0wjFjbMxy49mH-63" value="&lt;font color=&quot;#f5f5f5&quot;&gt;/update&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#A3A3A3;" vertex="1" connectable="0" parent="h3U-ndq0wjFjbMxy49mH-50">
+                    <mxGeometry x="0.7201" relative="1" as="geometry">
+                        <mxPoint y="8" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="h3U-ndq0wjFjbMxy49mH-32" value="child router" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="CBwO-R-Ii1OIMNnKbIEP-1">
