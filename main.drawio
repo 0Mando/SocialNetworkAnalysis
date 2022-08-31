@@ -1,26 +1,26 @@
 <mxfile host="65bd71144e">
     <diagram id="zADwQ3SVAGStBw-cGWYm" name="Models">
-        <mxGraphModel dx="1881" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1240" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="4" value="Modelos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=30;" parent="1" vertex="1">
-                    <mxGeometry x="80" y="40" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="131" y="40" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="User&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;username: String&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;email: String&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;currentWork: String&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;age: Int&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;isVerified: Boolean&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;skills[ ]: String&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;website: String&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;role: String&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;karma: Int&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;articleCount: Int&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;articles: Article&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="-20" y="90" width="210" height="290" as="geometry"/>
+                    <mxGeometry x="105" y="90" width="210" height="290" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="Article&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;titlePost: String&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;descriptionContent: String&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;publicationDate: Date&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;channel: Channel&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;votes: Int&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;comments[ ]: Comments&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="220" y="90" width="190" height="180" as="geometry"/>
+                    <mxGeometry x="345" y="90" width="190" height="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;Channel&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;channelName: String&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;channelDescription: String&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;image: URLIMAGE&lt;/span&gt;&lt;/div&gt;&lt;div&gt;parentBoard: String&lt;/div&gt;&lt;div&gt;mods[ ]: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" parent="1" vertex="1">
-                    <mxGeometry x="430" y="90" width="200" height="170" as="geometry"/>
+                    <mxGeometry x="555" y="90" width="200" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="8jkG0UfjaeEVxahPSzpD-16" value="&lt;div style=&quot;text-align: center&quot;&gt;Board&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;boardName: String&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;boardDescription: String&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;image: URLIMAGE&lt;/span&gt;&lt;/div&gt;&lt;div&gt;isVisibility: String&lt;/div&gt;&lt;div&gt;mods[ ]: Object&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;" parent="1" vertex="1">
-                    <mxGeometry x="430" y="340" width="200" height="190" as="geometry"/>
+                    <mxGeometry x="555" y="340" width="200" height="190" as="geometry"/>
                 </mxCell>
                 <mxCell id="dVCIMcFM7lCt38xhpQC4-15" value="Comments&lt;br&gt;&lt;br&gt;user: User&lt;br&gt;comment: String" style="whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="230" y="340" width="150" height="110" as="geometry"/>
+                    <mxGeometry x="355" y="340" width="150" height="110" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
