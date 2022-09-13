@@ -1,1 +1,2 @@
 # SocialNetworkAnalysis
+![Modelos](Modelos.png)
